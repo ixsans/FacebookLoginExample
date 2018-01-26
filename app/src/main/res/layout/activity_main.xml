@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp"
+        android:orientation="vertical"
+
+        tools:context="com.ixsanlabs.facebooklogin.MainActivity">
+
+
+    <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/profile_picture"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/text_name"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/text_email"/>
+
+
+    <com.facebook.login.widget.LoginButton
+            android:id="@+id/login_button"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <Button
+            android:id="@+id/login_button_custom"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textColor="#ffffff"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorPrimary"
+            android:text="Login using facebook"/>
+
+</LinearLayout>
